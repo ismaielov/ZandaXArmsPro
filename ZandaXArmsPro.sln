@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZandaXArmsPro.Entities", "ZandaXArmsPro.Entities\ZandaXArmsPro.Entities.csproj", "{317641C8-1D79-4F3A-9609-206D79F52DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZandaXArmsPro.Props", "ZandaXArmsPro.Props\ZandaXArmsPro.Props.csproj", "{6D9A367B-848B-4DBA-B543-5D7F365C7A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZandaXArmsPro.Core", "ZandaXArmsPro.Core\ZandaXArmsPro.Core.csproj", "{F500C10E-DC86-4133-B38E-5D74197B6A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZandaXArmsPro.WebApi", "ZandaXArmsPro.WebApi\ZandaXArmsPro.WebApi.csproj", "{05E1A690-ED18-42D7-B256-F92FC676F88E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZandaXArmsPro.AutoMapper", "ZandaXArmsPro.AutoMapper\ZandaXArmsPro.AutoMapper.csproj", "{EBBA7502-D871-4BD1-BF3D-21CC5EA42610}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317641C8-1D79-4F3A-9609-206D79F52DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317641C8-1D79-4F3A-9609-206D79F52DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317641C8-1D79-4F3A-9609-206D79F52DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317641C8-1D79-4F3A-9609-206D79F52DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9A367B-848B-4DBA-B543-5D7F365C7A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9A367B-848B-4DBA-B543-5D7F365C7A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9A367B-848B-4DBA-B543-5D7F365C7A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9A367B-848B-4DBA-B543-5D7F365C7A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F500C10E-DC86-4133-B38E-5D74197B6A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F500C10E-DC86-4133-B38E-5D74197B6A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F500C10E-DC86-4133-B38E-5D74197B6A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F500C10E-DC86-4133-B38E-5D74197B6A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E1A690-ED18-42D7-B256-F92FC676F88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E1A690-ED18-42D7-B256-F92FC676F88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E1A690-ED18-42D7-B256-F92FC676F88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E1A690-ED18-42D7-B256-F92FC676F88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBA7502-D871-4BD1-BF3D-21CC5EA42610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBA7502-D871-4BD1-BF3D-21CC5EA42610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBA7502-D871-4BD1-BF3D-21CC5EA42610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBA7502-D871-4BD1-BF3D-21CC5EA42610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
