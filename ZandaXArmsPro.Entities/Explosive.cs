@@ -2,6 +2,8 @@
 {
     public class Explosive
     {
+        public int Id {get; set;}
 
+        
     }
 }
